@@ -3,8 +3,15 @@
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
     "outDir": ".",
-    "rootDir": "src"
+    "rootDir": "src",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
   },
   "include": ["src/**/*"],
-  "exclude": ["*.js", "*.d.ts", "lib"]
+  "exclude": ["*.js", "*.d.ts", "lib", "providers"]
 }
